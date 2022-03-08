@@ -1,7 +1,6 @@
 -c requirements.txt
 
 astroid
-bandit
 black
 bump2version==1.0.0
 coverage
@@ -20,6 +19,6 @@ safety
 sphinx==1.8.5
 sphinx-markdown-tables
 sphinxcontrib-websupport==1.2.0
-typed-ast==1.4.1
+typed-ast
 twine
 zipp

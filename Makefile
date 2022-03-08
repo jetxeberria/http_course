@@ -67,7 +67,7 @@ develop: uninstall ## install the package in development mode
 env-create: init-hook ## (re)create a development environment using tox
 	tox -e http_course --recreate
 	@echo -e "\r\nYou can activate the environment with:\r\n\r\n$$ source ./.tox/http_course/bin/activate\r\n"
-	./.tox/http_course/bin/pip install pip==20.2.4
+	./.tox/http_course/bin/pip install pip==21.2.4
 
 env-compile: ## compile requirements.txt / requirements-dev.txt using pip-tools
 	pip-compile --no-emit-index-url --no-header --no-emit-trusted-host --output-file requirements.txt requirements.in
